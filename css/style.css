@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face{
+    font-family: 'theFont';
+    src: url("../media/font/Fontspring-DEMO-mongoose-medium.otf");
+}
+
+@font-face{
+    font-family: 'handWriting';
+    src: url("../media/font/tomhand.ttf");
+}
+
+body{
+    background-color: 	#8da99b;
+    
+}
+.title {
+    display: block;
+    font-family: theFont, sans-serif;
+    color:#fab3ad;
+    font-size: 100px;
+    background-color: #2c2827;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.bio{
+    background-image: url("../media/image/crumpled_paper.jpg");
+    margin-left:100px;
+    margin-right: 100px;
+    padding-bottom: 200px;
+    border: 3px solid black;
+}
+.image{
+    display: inline-block;
+}
+
+.bio img{
+    border: 5px solid #2c2827;
+    margin-left: 120px;
+    width: 500px;
+}
+.bio p{
+    font-size: 50px;
+    text-align: center;
+}
+.table{
+    font-family:'Times New Roman', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    color:#2c2827;
+    background-color: #FAF4E8;
+    border: 2px solid #2c2827;
+    margin-left: 100px;
+    
+}
+
+#write{
+    font-family: handWriting, sans-serif;
+}
+.bio tr{
+   outline: 1px solid #2c2827;
+   outline-style: dashed;
+   height:80px;
+   
+}
+
+.lists{
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    vertical-align: center;
+}
+
+.lists p{
+    color:#fab3ad;
+    font-size: 50px;
+    background-color: #2c2827;
+    font-family: 'Arial Narrow', sans-serif;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid #fab3ad;
+    border-radius: 30px;
+}
+
+.likes{
+    border: 5px solid #57675c;
+    border-radius: 30px;
+    display: inline-flex;
+    background-color: #2c2827;;
+    padding: 25px;
+    
+}
+
+.likes ul{
+    border: 10px solid #745350;;
+    border-radius: 30px;
+    text-align: left;
+    background-color: #fab3ad;
+    padding: 40px;
+    padding-bottom: 80px;
+    font-size: 25px;
+    width: 250px;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* #dislikes{
+    padding-top: 300px;
+} */
+
+.quote img{
+    border: 5px solid #807c7bb0;;
+    border-radius: 30px;
+    display: block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote p{
+  
+    color:#fab3ad;
+    font-size: 50px;
+    background-color: #2c2827;
+    font-family: 'Arial Narrow', sans-serif;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid #fab3ad;
+    border-radius: 30px;
+    text-align: center;
+}
